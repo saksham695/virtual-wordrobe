@@ -1,0 +1,16 @@
+{
+  "name": "wardrobe-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "check": "node scripts/check.mjs",
+    "bench:generate": "pnpm -F engine bench:generate",
+    "bench:score": "pnpm -F engine bench:score",
+    "eval:tagging": "node scripts/eval-tagging.mjs",
+    "eval:detect": "node scripts/eval-detect.mjs",
+    "seed:gen": "node scripts/seed-gen.mjs"
+  }
+}

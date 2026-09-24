@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "sectionOrder": ["top","bottom","one_piece","ethnic","layer","gymwear","footwear","accessory","unsorted"],
+  "subcategories": {
+    "top": ["tshirt","shirt","polo","kurta","blouse","top","sweatshirt","hoodie","sweater"],
+    "bottom": ["jeans","trousers","chinos","shorts","pyjama","skirt","palazzo","salwar","churidar","dhoti","joggers"],
+    "one_piece": ["dress","kurta_set","coord","jumpsuit","sherwani","lehenga_set","anarkali"],
+    "ethnic": ["saree","lehenga","dupatta","sherwani","nehru_jacket","kurta","salwar_kameez"],
+    "layer": ["jacket","blazer","nehru_jacket","cardigan","shrug","coat","dupatta","stole"],
+    "gymwear": ["gym_tee","track_pants","shorts_gym","sports_bra","leggings","tracksuit"],
+    "footwear": ["sneakers","loafers","formal_shoes","sandals","heels","flats","juttis","kolhapuris","boots","slippers","flipflops","sports_shoes"],
+    "accessory": ["watch","belt","tie","bag","jewellery","cap","sunglasses","scarf","socks"]
+  },
+  "colorFamilies": {
+    "white":{"neutral":true,"hue":null},"cream":{"neutral":true,"hue":null},"black":{"neutral":true,"hue":null},
+    "grey":{"neutral":true,"hue":null},"navy":{"neutral":true,"hue":220},"beige":{"neutral":true,"hue":35},
+    "denim":{"neutral":true,"hue":215},"tan":{"neutral":true,"hue":30},
+    "red":{"hue":0},"maroon":{"hue":345},"pink":{"hue":330},"orange":{"hue":25},"mustard":{"hue":45},
+    "yellow":{"hue":55},"olive":{"hue":80},"green":{"hue":120},"teal":{"hue":175},"blue":{"hue":210},
+    "purple":{"hue":275},"brown":{"hue":20},"rust":{"hue":15},"gold":{"hue":48},"silver":{"neutral":true,"hue":null}
+  },
+  "styleTags": ["minimal","classic","relaxed","streetwear","sporty","ethnic","bold","fusion","formal"],
+  "gapCandidates": [
+    {"subcategory":"sneakers","label":"White sneakers","prototype":{"category":"footwear","subcategory":"sneakers","colors":[{"family":"white","hex":"#F2F0EA","dominance":1}],"pattern":"solid","formality":2,"seasons":["all"],"style_tags":["minimal"]}},
+    {"subcategory":"formal_shoes","label":"Black formal shoes","prototype":{"category":"footwear","subcategory":"formal_shoes","colors":[{"family":"black","hex":"#1E1E1E","dominance":1}],"pattern":"solid","formality":4,"seasons":["all"],"style_tags":["classic"]}},
+    {"subcategory":"chinos","label":"Navy chinos","prototype":{"category":"bottom","subcategory":"chinos","colors":[{"family":"navy","hex":"#1F3A5F","dominance":1}],"pattern":"solid","formality":3,"seasons":["all"],"style_tags":["classic"]}},
+    {"subcategory":"shirt","label":"White shirt","prototype":{"category":"top","subcategory":"shirt","colors":[{"family":"white","hex":"#F7F7F5","dominance":1}],"pattern":"solid","formality":3,"seasons":["all"],"style_tags":["classic","minimal"]}},
+    {"subcategory":"kurta","label":"Plain kurta","prototype":{"category":"top","subcategory":"kurta","colors":[{"family":"cream","hex":"#EFE7D6","dominance":1}],"pattern":"solid","formality":4,"seasons":["all"],"style_tags":["ethnic"]}},
+    {"subcategory":"dupatta","label":"Plain dupatta","prototype":{"category":"layer","subcategory":"dupatta","colors":[{"family":"beige","hex":"#D8C8A8","dominance":1}],"pattern":"solid","formality":4,"seasons":["all"],"style_tags":["ethnic"]}},
+    {"subcategory":"juttis","label":"Juttis","prototype":{"category":"footwear","subcategory":"juttis","colors":[{"family":"tan","hex":"#B8895A","dominance":1}],"pattern":"solid","formality":4,"seasons":["all"],"style_tags":["ethnic"]}}
+  ]
+}
