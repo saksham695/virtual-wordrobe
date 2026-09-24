@@ -15,6 +15,7 @@ Read top to bottom the first time. After that, go straight to the feature file f
 | 02 | `02-ux/flows.md` | Flow diagrams between screens, including failure paths | reference |
 | 03 | `03-architecture/system.md` | The system: paths, boundaries, packages, envs, security, cost | authoritative for **shape** |
 | 03 | `03-architecture/features/F01…F12.md` | Per-feature fullstack architecture: DB ↔ engine ↔ API ↔ UI ↔ tests | authoritative per **feature** |
+| 03 | `03-architecture/cost.md` | What every capability costs in Phase 0 and why each is free | authoritative for **cost** |
 | 03 | `03-architecture/adr/*.md` | Why each non-obvious technical choice was made | reference |
 | 04 | `04-backend/schema.md` | Full DDL, enums, indexes, RLS policies, events | authoritative for **data** |
 | 04 | `04-backend/api.md` | Every edge function: auth, request, response, errors, limits | authoritative for **API** |

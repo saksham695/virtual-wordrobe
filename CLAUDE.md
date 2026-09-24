@@ -29,6 +29,10 @@ styling engine. AI is used in exactly three places and nowhere else.
 - **Occasions are config rows** (`knowledge/domain/occasions.json`), never model output.
 - **Every save / skip / wear writes a pair-label row.** This is the dataset; never skip it.
 - **Affiliate is out.** No commission links anywhere in V1. The gap finder is advice, nothing else.
+- **Phase 0 costs ₹0 per user** (`docs/03-architecture/cost.md`, D19). Derive, don't ask: colour from
+  pixels, formality/season/layer/style from `taxonomy.json` by subcategory, detection from OpenCV,
+  stylist from the rules engine. The only model call is subcategory classification. Anything that
+  adds a per-user cost needs a decision entry before it ships.
 
 ## Working here
 - One task at a time from `docs/07-plan/build-plan.md`; a task is done only when its DoD is met.
