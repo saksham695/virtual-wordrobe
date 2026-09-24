@@ -9,7 +9,9 @@ Read top to bottom the first time. After that, go straight to the feature file f
 | 01 | `01-product/features.md` | Every feature ever considered, by phase | reference |
 | 01 | `01-product/launch-plan.md` | The 30-day plan as first written | superseded by `07-plan/build-plan.md` |
 | 02 | `02-ux/screens.md` | Every screen, state, component, copy; nav map; canvas link | authoritative for **UI** |
-| 02 | `02-ux/design-system.md` | Tokens, type, colour, spacing, components | authoritative for **look** |
+| 02 | `02-ux/design-system.md` | Tokens, type, colour, spacing, motion, copy rules | authoritative for **look** |
+| 02 | `02-ux/component-library.md` | Every component: props, states matrix, content, a11y, composition | authoritative for **components** |
+| 02 | `02-ux/references.md` | External sources: what we took and what we rejected, with reasons | reference |
 | 02 | `02-ux/flows.md` | Flow diagrams between screens, including failure paths | reference |
 | 03 | `03-architecture/system.md` | The system: paths, boundaries, packages, envs, security, cost | authoritative for **shape** |
 | 03 | `03-architecture/features/F01…F12.md` | Per-feature fullstack architecture: DB ↔ engine ↔ API ↔ UI ↔ tests | authoritative per **feature** |
@@ -19,7 +21,8 @@ Read top to bottom the first time. After that, go straight to the feature file f
 | 04 | `04-backend/engine.md` | Pairing, outfit assembly, feed, occasion, hidden-outfit count — with test vectors | authoritative for **engine** |
 | 04 | `04-backend/jobs.md` | Queue, retries, crons, cost throttle | authoritative for **jobs** |
 | 05 | `05-frontend/app.md` | Expo app: structure, navigation, state, offline, image pipeline | authoritative for **app** |
-| 05 | `05-frontend/components.md` | Component inventory with props and states | authoritative for **components** |
+| 05 | `05-frontend/components.md` | RN implementation notes per component | implementation of `02-ux/component-library.md` |
+| 05 | `05-frontend/motion.md` | Every animation, its token and its reduced-motion form | authoritative for **motion** |
 | 06 | `06-ai/tagging.md` | Vision tagging prompt v1, JSON schema, test set, eval | authoritative for **tagging** |
 | 06 | `06-ai/stylist.md` | Ranking prompt, guards, fallbacks | authoritative for **stylist** |
 | 06 | `06-ai/bench.md` | The styling bench — how outfit quality is measured before beta | authoritative for **quality gate** |

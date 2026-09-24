@@ -32,9 +32,13 @@ styling engine. AI is used in exactly three places and nowhere else.
 
 ## Working here
 - One task at a time from `docs/07-plan/build-plan.md`; a task is done only when its DoD is met.
-- Use `.claude/skills/build-feature` for any feature task, `.claude/skills/db-migrate` for schema
-  changes, `.claude/skills/run-bench` before claiming a styling change is an improvement,
-  `.claude/skills/review-feature` before marking anything done.
+- Skills: `build-feature` (any feature task) · `ui-component` (anything in `src/ui`) ·
+  `state-patterns` (before adding a store or query) · `motion` (any animation) ·
+  `db-migrate` (schema) · `run-bench` (before claiming a styling win) ·
+  `design-review` + `review-feature` (before marking any UI task done).
+- Design: `knowledge/design/tokens.json` is the only source of colour, type, space and motion
+  values. Components read **semantic** tokens; no raw hex or px anywhere in `src/`.
+  Every component's API and states matrix is in `docs/02-ux/component-library.md`.
 - Engine changes: add a test vector to `docs/04-backend/engine.md` §test-vectors AND the test file.
 - Never lower a bench floor to make a check pass. Raise it when a round earns it.
 - Commit per task, message `F0X: <what>`; do not push unless asked.
